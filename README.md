@@ -8,4 +8,6 @@ What was this project about?
 - Learning the basics of Document Object Mobeling
 
 What I learned
-- 
+- Parameterization
+- DOM basics
+- The basics of using classes and objects in javascript
