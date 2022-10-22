@@ -1,0 +1,85 @@
+html {
+    zoom: 135%;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 5rem;
+    background-color: rgb(78, 106, 84);
+}
+
+.copyright {
+    text-decoration: underline;
+    font-size: 8px;
+    margin-top: 2.25rem;
+}
+
+#pelaaja-kortit,
+#jakaja-kortit {
+    display: flex;
+}
+
+.maa {
+    text-align: center;
+    font-size: 40px;
+}
+
+*.♦,
+*.♥ {
+    font-weight: bold;
+    color: red;
+}
+
+*.♣,
+*.♠ {
+    font-weight: bold;
+}
+
+.value-bottom {
+    align-self: flex-end;
+    transform: rotate(180deg);
+}
+
+.value-bottom,
+.value-top {
+    font-size: 16px;
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin: 0 0.5em
+}
+
+#tulos {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kortti {
+    background-color: #FFF;
+    border: 1px solid black;
+    border-radius: 12.5px;
+    margin-right: 5px;
+    padding: .5rem;
+    height: 125px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px black;
+}
+
+button {
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+button:hover {
+    color: green;
+    background-color: gray;
+    cursor: pointer;
+}
